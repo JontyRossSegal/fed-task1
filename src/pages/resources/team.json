@@ -1,0 +1,79 @@
+[
+    {
+      "age": 31,
+      "name": "Wade Warner",
+      "gender": "male",
+      "email": "wadewarner@qaboos.com",
+      "phone": "+27 (913) 465-2461",
+      "about": "Eu tempor consectetur enim elit exercitation ad occaecat ad. In sit deserunt qui eiusmod culpa anim in aliqua ullamco nulla tempor. Laborum cupidatat tempor esse ea sit laboris. Tempor commodo aliqua veniam ut enim do adipisicing in. Sunt quis culpa mollit quis ex laborum.\r\n",
+      "registered": "2016-09-05T08:24:11 -02:00",
+      "latitude": -63.936848,
+      "longitude": 31.263612
+    },
+    {
+      "age": 34,
+      "name": "Leonard Andrews",
+      "gender": "male",
+      "email": "leonardandrews@qaboos.com",
+      "phone": "+27 (938) 453-2634",
+      "about": "Officia non eiusmod cupidatat aute anim eiusmod duis ullamco laborum. Incididunt culpa sunt velit reprehenderit ullamco aliqua. Exercitation aliquip anim occaecat exercitation aliquip adipisicing minim. Sint ullamco ut et laboris ut in magna.\r\n",
+      "registered": "2016-02-15T12:34:16 -02:00",
+      "latitude": 19.551802,
+      "longitude": -175.628875
+    },
+    {
+      "age": 36,
+      "name": "Kristen Noble",
+      "gender": "female",
+      "email": "kristennoble@qaboos.com",
+      "phone": "+27 (804) 577-2773",
+      "about": "Duis aliqua veniam anim officia. Fugiat non nisi commodo veniam amet excepteur sit nulla est irure. Excepteur aliquip eiusmod dolore irure consectetur sit.\r\n",
+      "registered": "2014-12-12T04:01:53 -02:00",
+      "latitude": 40.679366,
+      "longitude": 159.29499
+    },
+    {
+      "age": 30,
+      "name": "House Hernandez",
+      "gender": "male",
+      "email": "househernandez@qaboos.com",
+      "phone": "+27 (870) 538-2616",
+      "about": "Ad pariatur nostrud dolore velit culpa nulla voluptate mollit enim magna sint exercitation nulla. In elit voluptate officia occaecat veniam occaecat est officia voluptate nostrud laboris est. Excepteur irure Lorem aliquip fugiat velit. Aute sit duis aliquip excepteur ut ipsum ut mollit labore est ad. Minim et excepteur cupidatat amet mollit fugiat cillum dolore cillum. Qui dolore id aute ad aliqua occaecat minim ex qui labore. Sit et nulla reprehenderit dolore sunt velit velit ut anim ex labore velit eiusmod do.\r\n",
+      "registered": "2018-02-25T01:24:38 -02:00",
+      "latitude": 1.115537,
+      "longitude": -168.811115
+    },
+    {
+      "age": 23,
+      "name": "Donna Mcpherson",
+      "gender": "female",
+      "email": "donnamcpherson@qaboos.com",
+      "phone": "+27 (970) 575-2150",
+      "about": "Enim est duis commodo tempor aliquip ipsum. Lorem do ea consectetur magna est eu commodo qui exercitation sit. Et ad proident officia eiusmod exercitation sit dolor veniam adipisicing tempor. Nisi reprehenderit pariatur mollit ea enim. Anim nulla occaecat qui amet ea ullamco enim ex nostrud consectetur. Labore cillum esse in ut dolore aute non non nulla ex sit. Elit culpa fugiat magna nostrud exercitation in do in laborum dolore pariatur incididunt aliqua tempor.\r\n",
+      "registered": "2020-10-21T12:07:12 -02:00",
+      "latitude": -1.101183,
+      "longitude": -115.147495
+    },
+    {
+      "age": 40,
+      "name": "Black Neal",
+      "gender": "male",
+      "email": "blackneal@qaboos.com",
+      "phone": "+27 (985) 437-3925",
+      "about": "Aute commodo ea adipisicing cillum mollit in in. Est aliqua duis duis et. Velit deserunt laborum dolor minim aliquip commodo irure voluptate. In aliquip veniam eu magna proident reprehenderit pariatur minim exercitation consequat cillum fugiat. Exercitation reprehenderit excepteur ea occaecat sit dolor et quis do ipsum ad sunt occaecat.\r\n",
+      "registered": "2020-12-27T08:28:16 -02:00",
+      "latitude": -68.147441,
+      "longitude": -27.709078
+    },
+    {
+      "age": 34,
+      "name": "Holland George",
+      "gender": "male",
+      "email": "hollandgeorge@qaboos.com",
+      "phone": "+27 (800) 581-3310",
+      "about": "Cupidatat culpa qui laboris non amet incididunt fugiat deserunt est laboris magna nisi. Anim anim dolor commodo laborum non dolore et. Dolore incididunt fugiat sit ea cupidatat proident irure et in ea veniam reprehenderit consequat sunt. Do veniam sunt incididunt laborum Lorem duis nulla tempor elit do consectetur. Mollit mollit non eu mollit ex amet proident veniam cupidatat officia in laboris. Proident laborum cillum laborum sit do duis aliquip laborum Lorem sit. Enim cupidatat minim ex consectetur veniam eiusmod labore enim in officia incididunt esse.\r\n",
+      "registered": "2014-03-30T03:34:08 -02:00",
+      "latitude": -17.916809,
+      "longitude": -39.91509
+    }
+  ]
