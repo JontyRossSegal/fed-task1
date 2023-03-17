@@ -8,19 +8,19 @@ const Item = styled(Paper)(({ theme }) => ({
     padding: theme.spacing(1),
     textAlign: 'center',
     color: theme.palette.text.secondary,
-  }));
+}));
 
 function Home() {
     return (
-        <Box sx={{flexGrow: 1, margin: "0 auto" }}>
+        <Box sx={{ flexGrow: 1, margin: "0 auto" }}>
             <Grid container spacing={1} justifyContent={'space-around'} padding={"5px"}  >
-            <Grid xs={12} md={11}  >
-                <Item >
-                    <Typography variant='h1'>Welcome to Lexsynergy!</Typography>
-                    <Typography variant='h3'>The home of all things domains!</Typography>
-                </Item>
+                <Grid xs={12} md={11}  >
+                    <Item >
+                        <Typography variant='h1'>Welcome to Lexsynergy!</Typography>
+                        <Typography variant='h3'>The home of all things domains!</Typography>
+                    </Item>
+                </Grid>
             </Grid>
-        </Grid>
         </Box>
     );
 }

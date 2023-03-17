@@ -15,7 +15,7 @@ export default function appFoot(){
     return(
         <Box sx={{flexGrow: 1}}>
             <Grid container spacing={0} justifyContent={'space-around'} >
-            <Grid xs={12} >
+            <Grid xs={11.99} >
                 <Item square="true">
                     <Typography variant='h4'>Footer</Typography>
                 </Item>

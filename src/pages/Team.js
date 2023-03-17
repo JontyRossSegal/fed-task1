@@ -1,7 +1,7 @@
 import { Paper, Box, Card, CardActionArea, CardContent, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Unstable_Grid2'
-import teams from './resources/team.json';
+import teams from './data/team.json';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#65a7dd',
