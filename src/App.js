@@ -9,6 +9,10 @@ import NoPage from './pages/NoPage';
 import NavBar from './components/NavBar';
 import AppFoot from './components/appFoot';
 
+// rename /resources to /data
+// study the layouts you've used a few times and create another appropriately named layout that takes in the children (other components to render)
+// !! Dont forget to link through to a specific blog ultilising react-router-dom. NO hard coding.
+
 function App() {
   return (
     <Routes>
@@ -24,6 +28,7 @@ function App() {
   );
 }
 
+// Extract this into its own dir called layouts.
 function AppLayout(){
   return(
     <>

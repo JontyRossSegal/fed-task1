@@ -19,7 +19,8 @@ function Blog() {
                 <Grid xs={12} md={11} >
                     <Item sx={{display: "flex", flexDirection:"row", flexWrap:"wrap", rowGap: 1, columnGap: 2, justifyContent: 'space-evenly'}}>
                         {
-                            blogs.map((a) => (
+                            blogs.map((a) => ( // Whats wrong here? Looping over an array to create components in React
+                                // Extract/abstract this into its own reusable component 
                                 <Card sx={{ maxWidth: 500 }}>
                                     <CardActionArea>
                                         <CardMedia

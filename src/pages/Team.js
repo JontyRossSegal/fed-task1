@@ -19,6 +19,7 @@ function Team() {
                     <Item sx={{display: "flex", flexDirection:"row", flexWrap:"wrap", rowGap: 1, columnGap: 2, justifyContent: 'space-evenly'}}>
                         {
                             teams.map((a) => (
+                                //  Create a components that can be used for both blog and team. Regardless of whether an image is present or not.
                                 <Card sx={{ maxWidth: 500 }}>
                                     <CardActionArea>
                                         <CardContent>
