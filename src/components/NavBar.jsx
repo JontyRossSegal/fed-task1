@@ -24,14 +24,20 @@ export default function NavBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Lexsynergy Limited
           </Typography>
-          <Button color="inherit"><Link id="routeLink" to="/">Home</Link></Button>
-          <Button color='inherit'><Link id="routeLink" to="blog">Blog</Link></Button>
-          <Button color='inherit'><Link id="routeLink" to="about">About Us</Link></Button>
-          <Button color='inherit'><Link id="routeLink" to="team">Our Team</Link></Button>
-          <Button color='inherit'><Link id="routeLink" to="contactus">Contact Us</Link></Button>
+          <CustomLinkButton routeTo="/" label="Home"/>
+          <CustomLinkButton routeTo="/blog" label="Blog"/>
+          <CustomLinkButton routeTo="/about" label="About Us"/>
+          <CustomLinkButton routeTo="/team" label="Our Team"/>
+          <CustomLinkButton routeTo="/contactus" label="Contact Us"/>
 
         </Toolbar>
       </AppBar>
     </Box>
   );
+}
+
+const CustomLinkButton = ({routeTo, label}) => {
+  return(
+    <Link className="routeLink" to={routeTo}><Button color="inherit">{label}</Button></Link>
+  )
 }
