@@ -14,6 +14,10 @@ const businessArea = [
     {
       value: 'Brand Protection and Domain Management',
       label: 'Brand Protection and Domain Management',
+    },
+    {
+        value: 'None',
+        label: 'None',
     }
   ];
 
@@ -59,7 +63,7 @@ function Contact() {
                                     <TextField required id='nameField' label="Name" />
                                     <TextField required id='emailField' label="Email Address" />
                                     <TextField id='phoneField' label="Phone Number" />
-                                    <TextField id="areaOfInterest" select label="Area of Interest" helperText="Please select your area of interest">
+                                    <TextField id="areaOfInterest" select label="Area of Interest" helperText="Please select your area of interest" defaultValue={"None"}>
                                         {businessArea.map((option) => (
                                             <MenuItem key={option.value} value={option.value}>
                                                 {option.label}

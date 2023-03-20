@@ -38,7 +38,7 @@ function About(){
             <Grid xs={12} md={11} >
                 <Item>
                     <Typography variant='h1'>About Us:</Typography>
-                    <Typography variant='h6'sx={{textAlign: "left"}}><AboutUs/></Typography>
+                    <Typography variant='h3'sx={{textAlign: "left"}}><AboutUs/></Typography>
                 </Item>
             </Grid>
         </Grid>
