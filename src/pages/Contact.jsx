@@ -60,7 +60,7 @@ function Contact() {
                             <Typography variant='h4'>Let Us Contact You!</Typography>
                             <Card sx={{ maxWidth: 400, backgroundColor: "#7cb9e8", width: "100vw" }} >
                                 <CardContent sx={{ textAlign: "left", rowGap: 1, display: "flex", flexWrap: "wrap", flexDirection: "column" }}>
-                                    <TextField required id='nameField' label="Name" />
+                                    <TextField inputProps={{ "data-testid": "namefield" }} required id='nameField' label="Name" />
                                     <TextField required id='emailField' label="Email Address" />
                                     <TextField id='phoneField' label="Phone Number" />
                                     <TextField id="areaOfInterest" select label="Area of Interest" helperText="Please select your area of interest" defaultValue={"None"}>
