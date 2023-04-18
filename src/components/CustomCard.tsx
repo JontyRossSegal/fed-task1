@@ -1,6 +1,12 @@
 import { Card, CardActionArea, CardContent, Typography, CardMedia } from '@mui/material';
 
-export default function CustomCard({ image, header, blurb}) {
+interface ICardType {
+    image: string;
+    header: string;
+    blurb: string;
+}
+
+export default function CustomCard({ image, header, blurb}: ICardType) {
     return (
         <Card sx={{ maxWidth: 500 }} >
             <CardActionArea >

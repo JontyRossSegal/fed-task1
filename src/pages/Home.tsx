@@ -1,24 +1,16 @@
-import { Paper, Box, Typography } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import { Box, Typography } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2'
-
-const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#65a7dd',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-}));
+import CustomItem from '../components/CustomItem';
 
 function Home() {
     return (
         <Box sx={{ flexGrow: 1, margin: "0 auto" }}>
             <Grid container spacing={1} justifyContent={'space-around'} padding={"5px"}  >
                 <Grid xs={12} md={11}  >
-                    <Item >
+                    <CustomItem >
                         <Typography variant='h1'>Welcome to Lexsynergy!</Typography>
                         <Typography variant='h3'>The home of all things domains!</Typography>
-                    </Item>
+                    </CustomItem>
                 </Grid>
             </Grid>
         </Box>

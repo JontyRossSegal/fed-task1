@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { Link } from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -7,11 +6,23 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 
+interface ILinkButton {
+  routeTo: string;
+  label: string;
+}
+
+//{ "data-testid": label.replaceAll(" ", "").toLowerCase() }
+const CustomLinkButton = ({ routeTo, label }: ILinkButton) => {
+  return (
+    <Link className="routeLink" to={routeTo}><Button color="inherit" >{label}</Button></Link>
+  )
+}
+
 
 export default function NavBar() {
   return (
     <Box sx={{ flexGrow: 1 }} >
-      <AppBar position="static" xs={11}>
+      <AppBar position="static" >
         <Toolbar >
           <IconButton
             size="large"
@@ -36,8 +47,3 @@ export default function NavBar() {
   );
 }
 
-const CustomLinkButton = ({ routeTo, label }) => {
-  return (
-    <Link className="routeLink" inputProps={{ "data-testid": label.replaceAll(" ", "").toLowerCase() }} to={routeTo}><Button color="inherit"  >{label}</Button></Link>
-  )
-}

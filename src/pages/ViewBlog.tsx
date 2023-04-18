@@ -3,7 +3,7 @@ import data from "../data/blogs.json"
 
 export default function ViewBlog() {
     const { id } = useParams();
-    const blog = data.find(f => f._id === id)
+    const blog: any = data.find(f => f._id === id)
 
     if(!data) return <b>No Blog Found</b>
     return(
